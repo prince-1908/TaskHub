@@ -1,0 +1,6 @@
+#noteContainer{
+	width: 100vw;
+}
+#note{
+	width: calc(75%/2);
+}

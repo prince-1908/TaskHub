@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower', cursive;
+}
+
+body{
+	background: #121212;
+}
+
+
+nav{
+	background: #003399;
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: max(3vw, 25px);
+	padding: 20px;
+}
+
+nav h1{
+	font-weight: bolder;
+}
+
+label{
+	color: white;
+	display: block;
+	font-size: 1.5rem;
+}
+
+input{
+	width: 98%;
+	padding: 0 10px;
+	height: 2.5rem;
+	font-size: max(1.5vw, 20px);
+	border-radius: 10px;
+	margin: 5px 0 2rem 0;
+	border: 3px solid #003399;
+}
+
+button{
+	background: #003399;
+	color: white;
+	font-size: max(1.2vw, 20px);
+	border: 2px solid white;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 200ms ease;
+}
+
+button:hover{
+	border: 2px solid #003399;
+	font-weight: bold;
+	transform: scale(1.01);
+	background: transparent;
+	color: #003399;
+	box-shadow: 0px 0px 8px #003399;
+}
+
+.form-btn{
+	width: 48%;
+	padding: 10px;
+}
+
+#btns{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#form{
+	width: 80%;
+	margin: 3rem auto;
+}
+
+#empty{
+	padding: 3rem 0;
+	text-align: center;
+	color: #c9c9c9;
+}
+
+#noteContainer{
+	width: 80%;
+	margin: 2rem auto 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+#note{
+	border: 1px solid white;
+	padding: 20px;
+	width: calc(85%/3);
+	color: white;
+	border-radius: 12px;
+}
+
+#note div h2{
+	border-bottom: 2px solid white;
+}
+
+#note div p{
+	margin-top: 20px;
+}
+.note-content{
+/* 	border: 1px solid blue; */
+	padding: 10px;
+}
+.note-btn{
+	margin-top: 1rem;
+	height: 2.5rem;
+}
+#note-btns{
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>TaskHub</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="phone.css" media="screen and (max-width:500px)">
+	<link rel="stylesheet" href="ipad.css" media="screen and (max-width:1000px)">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+		<nav>
+			<h1>TaskHub</h1>
+		</nav>
+
+		<div>
+			<form id="form">
+				<div>
+					<label for="title">Title</label>
+					<input type="text" id="title">
+				</div>
+
+				<div>
+					<label for="description">Description</label>
+					<input type="text" id="description">
+				</div>
+
+				<div id="btns">
+					<button type="submit" class="form-btn" id="addNote">Add Note</button>
+					<button type="submit" class="form-btn" id="saveNote" style="display: none;">Save Note</button>
+					<button type="submit" class="form-btn" id="delAll">Delete All</button>
+				</div>
+
+				<input type="text" id="tempSave" style="display: none;">
+
+			</form>
+		</div>
+
+		<hr>
+
+		<div id="noteContainer"> </div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
