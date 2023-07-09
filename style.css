@@ -89,7 +89,7 @@ button:hover{
 	margin-bottom: 2rem;
 }
 
-#note{
+.note{
 	border: 1px solid white;
 	padding: 20px;
 	width: calc(85%/3);
@@ -97,11 +97,11 @@ button:hover{
 	border-radius: 12px;
 }
 
-#note div h2{
+.note div h2{
 	border-bottom: 2px solid white;
 }
 
-#note div p{
+.note div p{
 	margin-top: 20px;
 }
 .note-content{

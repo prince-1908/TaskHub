@@ -30,7 +30,7 @@ let getNotes = () => {
 		getTitle = getLocalDataVar[i].title;
 		getDescription = getLocalDataVar[i].description;
 
-		html += `<div id="note">
+		html += `<div class="note">
   						<div>
 								<div id="note-content">
 	    						<h2 class="note-item note-content">${getTitle}</h2>
